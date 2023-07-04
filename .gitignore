@@ -1,0 +1,7 @@
+/skk-client/node_modules
+/skk-client/build
+/skk-client/.env
+
+/skk-server/node_modules
+/skk-server/build
+/skk-server/.env
