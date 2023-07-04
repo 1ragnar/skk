@@ -3,7 +3,7 @@ import { fa, faker } from '@faker-js/faker';
 import { Bus } from '../bus.entity';
 import { Seat } from '../seat.entity';
 import { Route } from '../route.entity';
-import { CRO_BUS_STATIONS } from './croBusStations';
+import { CRO_BUS_STATIONS } from '../../modules/helpers/croBusStations';
 import * as moment from 'moment';
 
 const BUS_CAPACITY = 36;

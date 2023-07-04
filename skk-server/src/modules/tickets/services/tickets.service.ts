@@ -45,7 +45,6 @@ export class TicketsService {
         amount: 1,
         ticket: newTicket,
       });
-
       if (!newPayment) {
         throw new HttpException(
           'Error occured while creating payment',

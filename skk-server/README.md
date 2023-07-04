@@ -21,6 +21,12 @@ $ npm run start:dev
 $ npm run start:prod
 ```
 
+##### Create postgres database with related tables
+
+```bash
+npx ts-node ./src/database/initializeDatabase.ts
+```
+
 ##### Run all migrations before starting the project
 
 ```bash

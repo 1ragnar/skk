@@ -10,7 +10,7 @@ import { JwtService } from '@nestjs/jwt';
 import { LoginDTO, SignupDTO } from '../dtos';
 import { AuthenticatedUser } from '../interfaces';
 import { matchPassword } from 'src/modules/helpers/password.helper';
-import { CRO_BUS_STATIONS } from 'src/typeorm/migrations/croBusStations';
+import { CRO_BUS_STATIONS } from 'src/modules/helpers/croBusStations';
 
 @Injectable()
 export class AuthService {
