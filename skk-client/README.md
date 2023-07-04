@@ -1,6 +1,6 @@
 ## Description
 
-Skk is a job application task in which the purchase of bus tickets starting from Sisak is implemented.
+Skk-client is React app that is used for buying bus tickets from the city of Sisak
 
 ## Installation
 
